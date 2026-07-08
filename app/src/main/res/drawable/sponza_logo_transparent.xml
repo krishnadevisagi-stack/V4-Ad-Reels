@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- TRANSPARENT BACKGROUND (No solid background to blend into any theme) -->
+
+    <!-- COMPOSITION LOCK GROUP (Scales entire logo to exactly 64% of canvas height) -->
+    <group
+        android:pivotX="256"
+        android:pivotY="256"
+        android:scaleX="0.91"
+        android:scaleY="0.91">
+
+        <!-- SUBTLE BLOOM BACKDROP (Soft golden halo for depth) -->
+        <path
+            android:pathData="M 256,256 m -180,0 a 180,180 0 1,1 360,0 a 180,180 0 1,1 -360,0">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="radial"
+                    android:centerX="256"
+                    android:centerY="256"
+                    android:gradientRadius="180">
+                    <item android:offset="0.0" android:color="#55FFD54F" /> <!-- Soft gold bloom -->
+                    <item android:offset="0.6" android:color="#16FFB300" />
+                    <item android:offset="1.0" android:color="#00000000" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- THE GOLD COIN (Enclosed within the lower loop of the S) -->
+        <!-- Outer Coin Body -->
+        <path
+            android:pathData="M 240.5,360 m -55,0 a 55,55 0 1,1 110,0 a 55,55 0 1,1 -110,0">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="185.5"
+                    android:startY="305"
+                    android:endX="295.5"
+                    android:endY="415">
+                    <item android:offset="0.0" android:color="#FFF59D" /> <!-- Light highlight gold -->
+                    <item android:offset="0.3" android:color="#FFD54F" /> <!-- Vibrant yellow gold -->
+                    <item android:offset="0.7" android:color="#FF9800" /> <!-- Warm amber gold -->
+                    <item android:offset="1.0" android:color="#E65100" /> <!-- Rich shadow bronze -->
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Inner Coin Recess -->
+        <path
+            android:pathData="M 240.5,360 m -48,0 a 48,48 0 1,1 96,0 a 48,48 0 1,1 -96,0">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="185.5"
+                    android:startY="415"
+                    android:endX="295.5"
+                    android:endY="305">
+                    <item android:offset="0.0" android:color="#FF8F00" /> <!-- Dark Gold shadow -->
+                    <item android:offset="0.5" android:color="#FFC107" /> <!-- Radiant Gold -->
+                    <item android:offset="1.0" android:color="#FFF9C4" /> <!-- Soft Highlight -->
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Coin Inner Border -->
+        <path
+            android:pathData="M 240.5,360 m -48,0 a 48,48 0 1,1 96,0 a 48,48 0 1,1 -96,0"
+            android:strokeWidth="2"
+            android:strokeColor="#FFB300"
+            android:fillColor="#00000000" />
+
+        <!-- Coin Dollar Sign ($) Shadow -->
+        <path
+            android:pathData="M 242,325.5 L 242,397.5 M 229,339.5 C 229,329.5 255,329.5 255,342.5 C 255,352.5 229,355.5 229,368.5 C 229,381.5 255,381.5 255,368.5"
+            android:strokeWidth="4"
+            android:strokeColor="#9E3D00"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000" />
+
+        <!-- Coin Dollar Sign ($) Foreground -->
+        <path
+            android:pathData="M 240.5,324 L 240.5,396 M 227.5,338 C 227.5,328 253.5,328 253.5,341 C 253.5,351 227.5,354 227.5,367 C 227.5,380 253.5,380 253.5,367"
+            android:strokeWidth="3.5"
+            android:strokeColor="#FFFDE7"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000" />
+
+        <!-- THE GOLDEN "S" MONOGRAM (Perfect mathematically non-self-intersecting 3D Golden Curved Ribbon) -->
+        
+        <!-- S Lower Loop & Neck -->
+        <path
+            android:pathData="M 256.5,265 C 291.5,280 335.5,305 335.5,360 C 335.5,412 292.5,455 240.5,455 C 188.5,455 145.5,412 145.5,360 C 145.5,320 166.5,280 201.5,280 C 216.5,280 226.5,290 231.5,305 C 231.5,305 216.5,315 201.5,315 C 181.5,315 175.5,335 175.5,360 C 175.5,396 204.5,425 240.5,425 C 276.5,425 305.5,396 305.5,360 C 305.5,324 276.5,295 240.5,295 C 221.5,295 206.5,280 256.5,265 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="145.5"
+                    android:startY="265"
+                    android:endX="335.5"
+                    android:endY="455">
+                    <item android:offset="0.0" android:color="#FFE082" /> <!-- Light bright gold -->
+                    <item android:offset="0.2" android:color="#FFD54F" /> <!-- Vibrant gold -->
+                    <item android:offset="0.5" android:color="#FFB300" /> <!-- Medium gold -->
+                    <item android:offset="0.8" android:color="#FF8F00" /> <!-- Rich warm gold -->
+                    <item android:offset="1.0" android:color="#E65100" /> <!-- Deep shadow bronze -->
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- S Upper Loop -->
+        <path
+            android:pathData="M 166.5,220 C 166.5,150 216.5,110 286.5,110 C 331.5,110 366.5,135 366.5,175 C 366.5,215 321.5,245 256.5,265 C 296.5,245 326.5,215 326.5,185 C 326.5,155 296.5,140 261.5,140 C 221.5,140 181.5,170 166.5,220 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="166.5"
+                    android:startY="110"
+                    android:endX="366.5"
+                    android:endY="265">
+                    <item android:offset="0.0" android:color="#FFE082" /> <!-- Light bright gold -->
+                    <item android:offset="0.2" android:color="#FFD54F" /> <!-- Vibrant gold -->
+                    <item android:offset="0.5" android:color="#FFB300" /> <!-- Medium gold -->
+                    <item android:offset="0.8" android:color="#FF8F00" /> <!-- Rich warm gold -->
+                    <item android:offset="1.0" android:color="#E65100" /> <!-- Deep shadow bronze -->
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Glossy Highlight 1 (Top Loop Outer Edge) -->
+        <path
+            android:pathData="M 166.5,220 C 166.5,150 216.5,110 286.5,110 C 331.5,110 366.5,135 366.5,175"
+            android:strokeWidth="3.5"
+            android:strokeColor="#A0FFFFFF"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round" />
+
+        <!-- Glossy Highlight 2 (Bottom Loop Outer Edge) -->
+        <path
+            android:pathData="M 256.5,265 C 291.5,280 335.5,305 335.5,360 C 335.5,412 292.5,455 240.5,455"
+            android:strokeWidth="3.5"
+            android:strokeColor="#A0FFFFFF"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round" />
+
+        <!-- Specular Shadow (Inner loop crease overlay) -->
+        <path
+            android:pathData="M 256.5,265 C 291.5,280 335.5,305 335.5,360"
+            android:strokeWidth="5"
+            android:strokeColor="#30000000"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round" />
+
+        <!-- PURPLE FILM STRIP (Waving ribbon passing horizontally through the upper loop) -->
+        <path
+            android:pathData="M 156.5,140 C 226.5,165 296.5,135 376.5,120 L 376.5,180 C 296.5,195 226.5,225 156.5,200 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="156.5"
+                    android:startY="170"
+                    android:endX="376.5"
+                    android:endY="150">
+                    <item android:offset="0.0" android:color="#7B1FA2" /> <!-- Deep Royal Purple -->
+                    <item android:offset="0.5" android:color="#9C27B0" /> <!-- Vibrant Orchid/Purple -->
+                    <item android:offset="1.0" android:color="#BA68C8" /> <!-- Lighter highlight violet -->
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Vertical Panel Dividers -->
+        <path
+            android:pathData="M 231.5,153 L 231.5,210"
+            android:strokeWidth="2.5"
+            android:strokeColor="#4A148C" />
+        <path
+            android:pathData="M 301.5,141 L 301.5,198"
+            android:strokeWidth="2.5"
+            android:strokeColor="#4A148C" />
+
+        <!-- Sprocket Holes (Top) -->
+        <path
+            android:pathData="M 171.5,148 h 4 v 4 h -4 z M 196.5,152 h 4 v 4 h -4 z M 221.5,153 h 4 v 4 h -4 z M 246.5,152 h 4 v 4 h -4 z M 271.5,148 h 4 v 4 h -4 z M 296.5,142 h 4 v 4 h -4 z M 321.5,135 h 4 v 4 h -4 z M 346.5,129 h 4 v 4 h -4 z M 366.5,123 h 4 v 4 h -4 z"
+            android:fillColor="#310D5C" />
+
+        <!-- Sprocket Holes (Bottom) -->
+        <path
+            android:pathData="M 171.5,190 h 4 v 4 h -4 z M 196.5,196 h 4 v 4 h -4 z M 221.5,200 h 4 v 4 h -4 z M 246.5,201 h 4 v 4 h -4 z M 271.5,199 h 4 v 4 h -4 z M 296.5,193 h 4 v 4 h -4 z M 321.5,186 h 4 v 4 h -4 z M 346.5,179 h 4 v 4 h -4 z M 366.5,172 h 4 v 4 h -4 z"
+            android:fillColor="#310D5C" />
+
+        <!-- Play Button Outer Glow backdrop -->
+        <path
+            android:pathData="M 256.5,157 L 256.5,187 L 281.5,172 Z"
+            android:fillColor="#40FFFFFF" />
+
+        <!-- White Play Button Triangle inside Center Panel -->
+        <path
+            android:pathData="M 258.5,160 L 258.5,184 L 278.5,172 Z"
+            android:fillColor="#FFFFFF" />
+
+    </group>
+
+</vector>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "496601333022",
+    "project_id": "sponza-936da",
+    "storage_bucket": "sponza-936da.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496601333022:android:c6c46aa7679a79562e9d0f",
+        "android_client_info": {
+          "package_name": "com.example.ui.screens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496601333022-u7qslaeatgsv82dp9dn7h43tlrlui1ud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ui.screens",
+            "certificate_hash": "01e0e35d188776ca0761981dbe34cc735688daff"
+          }
+        },
+        {
+          "client_id": "496601333022-ji7iu0cpjhofpgaee91h5nh766elqu7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_KnADNiN8OwoSFk7ZC5KKIqAWKpw3fP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496601333022-ji7iu0cpjhofpgaee91h5nh766elqu7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Sponza",
+  "description": "Premium ad reward feed and vertical video reels engine with real-time analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
